@@ -1,4 +1,6 @@
 import React from 'react';
+import AddToCard from '../../AddToCard/AddToCard';
+import Footer from '../../Sheared/Footer/Footer';
 import ShearNav from '../../Sheared/ShearNav/ShearNav';
 import BreakfastProduct from '../BreakfastProduct/BreakfastProduct';
 import { breakfastItem } from '../ProductBrk/ProductBrk';
@@ -9,7 +11,7 @@ const Breakfast = () => {
         <section className="service-container mt-5">
         <div className="text-center">
             <ShearNav/>
-            <h5 style={{ color: "#1CC7C1" }}>Our Services</h5>
+           <AddToCard/>
          
         </div>
         <div className="d-flex justify-content-center">
@@ -19,6 +21,7 @@ const Breakfast = () => {
                 }
             </div>
         </div>
+        <Footer/>
     </section>
     );
 };

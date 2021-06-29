@@ -4,7 +4,7 @@ const CustomerReviewData = ({reviewData}) => {
     return (
         <div className="card shadow-sm">
             <div className="card-header d-flex  align-items-center">
-                <img className="mx-3" src={reviewData.authorImg} alt="" />
+                <img style={{height:"60px"}} className="mx-2" src={reviewData.authorImg} alt="" />
                 <div>
                     <h6 className="text-primary">{reviewData.author}</h6>
                     <p className="m-0">{reviewData.date}</p>

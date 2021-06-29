@@ -5,11 +5,14 @@ import dinner3 from '../../../image/din3.png'
 import dinner4 from '../../../image/din4.png'
 import dinner5 from '../../../image/din5.png'
 import dinner6 from '../../../image/din6.png'
+import AddToCard from '../../AddToCard/AddToCard';
+import Footer from '../../Sheared/Footer/Footer';
 import ShearNav from '../../Sheared/ShearNav/ShearNav';
 import DinnerProduct from '../DinnerProduct/DinnerProduct';
 
 
 const Dinner = () => {
+
     const dinnerItems = [
         {
             key: "din1",
@@ -71,7 +74,7 @@ const Dinner = () => {
         <section className="service-container mt-5">
         <div className="text-center">
             <ShearNav/>
-            <h5 style={{ color: "#1CC7C1" }}>Our Services</h5>
+            <AddToCard/>
          
         </div>
         <div className="d-flex justify-content-center">
@@ -81,6 +84,9 @@ const Dinner = () => {
                 }
             </div>
         </div>
+
+            <Footer/>
+  
     </section>
     );
 };

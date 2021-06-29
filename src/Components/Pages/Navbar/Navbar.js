@@ -10,12 +10,12 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2 mb-lg-0">
             
-            <li class="nav-item " >
+            {/* <li class="nav-item " >
                 <img class="" style={{width:"90px"}} src={nav} alt="nav" />
-              </li>
+              </li> */}
               
               <li class="nav-item other">
-                <a class="nav-link mr-5 text-warning"  aria-current="page" href="#">Home</a>
+                <a  style={{marginLeft:"80px"}} class="nav-link mr-5 text-warning"  aria-current="page" href="#">Home</a>
               </li>
               
             

@@ -5,21 +5,21 @@ import './CustomerReview.css'
 
 const reviewData = [
     {
-        title : 'Check at least a doctor in a year for your teeth',
+        title : 'Delicious Food',
         description : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
         author:'Creed',
         authorImg : avatar1,
         date : '23 April 2019'
     },
     {
-        title : 'Two time brush in a day can keep you healthy',
+        title : 'Fresh Food and Nice Behaivior',
         description : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
         author:'Revel',
         authorImg : avatar1,
         date : '23 April 2019'
     },
     {
-        title : 'The tooth cancer is taking a challenge',
+        title : 'Amazing Food',
         description : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
         author:'Anthoni',
         authorImg : avatar1,

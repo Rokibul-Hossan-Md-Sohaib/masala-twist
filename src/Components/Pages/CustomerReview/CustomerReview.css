@@ -14,7 +14,7 @@
 }
 
 .review .card:hover{
-    background-image: linear-gradient(75deg, #19D3AE,#0fcfec);
+    background-image: linear-gradient(75deg, #b1d319,#b1ec0f);
     color: #fff !important;
     transition:  .1s  all ease-in-out !important;
 }
@@ -33,3 +33,4 @@
 .review .card:hover img{
     display: none;
 }
+/* //75deg, #19D3AE,#0fcfec */

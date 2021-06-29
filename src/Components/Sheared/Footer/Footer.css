@@ -1,3 +1,36 @@
-.footer{
-    background-color: black;
+.footer-area{
+    background-image: url(../../../image/bgg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 420px;
+    background-position: center center;
+    margin-top: 40px;
+}
+
+.footer-area li{
+    padding-bottom: 10px;
+}
+.footer-area::before{
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  background-color: white;
+    opacity: .2;
+    top: 0;
+}
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: #1cc7c1;
+    border-radius: 50%;
+    border: 1px solid #6ACECE;
+    padding: 10px;
+}
+.social-media .active-icon{
+    background-color: #6ACECE ;
+    color:white;
 }

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import nav from '../../../image/navlogo.png'
 import './ShearNav.css'
 
 const ShearNav = () => {
@@ -9,6 +11,11 @@ const ShearNav = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0" >
+          <Link to="/">
+          <li class="nav-item " >
+                <img class="" style={{width:"90px"}} src={nav} alt="nav" />
+              </li>
+          </Link>
               <li class="nav-item " >
                 <a class="nav-link pr-5  text-warning" style={{marginLeft:"450px"}} aria-current="page" href="lunch">Lunch</a>
               </li>
