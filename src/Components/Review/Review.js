@@ -4,7 +4,8 @@ import { useStateValue } from '../Sheared/Context/StateProvider';
 import ReviewItem from './ReviewItem';
 import Subtotal from './Subtotal';
 import image from '../../image/brk2.png'
-
+import nav from '../../image/navlogo.png'
+import { Link } from 'react-router-dom';
 
 
 const Review = () => {
@@ -16,8 +17,10 @@ const Review = () => {
       <div className="row mb-5">
         <div className="col-md-6 mr-5" >
          
-
-            <h1>You Food List</h1>
+        <Link to="/">
+             <img class="" style={{width:"90px", marginRight:"10px"}} src={nav} alt="nav" />
+             </Link>
+            <h1 className="text-warning font-italic">You Food List</h1>
             {basket.map(item => (
               <ReviewItem
                 key={item.key}

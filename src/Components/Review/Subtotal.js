@@ -6,21 +6,18 @@ import { useStateValue } from '../Sheared/Context/StateProvider';
 
 const Subtotal = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
-    const [{basket}, dispatch] =useStateValue();
+    const [{ basket }, dispatch] = useStateValue();
     return (
         <div>
-             <h5 className="font-weight-bold">SubTotal ({basket.length})<br /> Food Item{basket.length}  </h5>
-                    
-                    <p className="text-secondary">Total amount :${getBasketTotal(basket)} 
-                       </p>
+            <h5 className="font-weight-bold"> Food Item{basket.length}  </h5>
 
-                        {/* <button className="btn btn-success pb-3 pt-3 mt-4">Proceed Checkout</button> */}
-                        <Link to="/shipment">
-         
-            <button className="btn btn-success pb-3 pt-3 mt-4">Proceed CheckOut</button>
-          
-        </Link>
-                        
+            <p className="text-secondary">Total amount :${getBasketTotal(basket)}
+            </p>
+            <Link to="/shipment">
+                <button className="btn btn-success pb-3 pt-3 mt-4">Proceed CheckOut</button>
+
+            </Link>
+
         </div>
     );
 };

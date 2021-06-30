@@ -1,0 +1,30 @@
+.ship-form{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ship-form input{
+    
+    padding: 7px;
+    margin-top: 15px;
+   width: 350px;
+    background-color: aquamarine;
+}
+.ship-form h1{
+    background-color: aliceblue;
+    width: 200px;
+    padding: 10px,20px;
+    color: indigo
+}
+.error{
+    color: red;
+}
+.submit {
+    cursor: pointer;
+    width: 50px;
+    background-color: blue;
+   
+
+}
